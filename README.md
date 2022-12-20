@@ -3,7 +3,7 @@
 
 ### **Prerequisites**
 - You should have Python and pip manager installed on your computer
-- You should log-in at https://web.whatsapp.com prior to runninng this website.
+- You should log-in at https://web.whatsapp.com prior to runninng this main.py file.
 - Make sure the column having phone numbers is renamed to **Whatsapp**.  Name of the .csv file should be 'Whatsapp.csv'     
     > Note: It's case sensitive.
 - Your browser should be opened in full-screen mode.
