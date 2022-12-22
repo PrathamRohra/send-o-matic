@@ -4,9 +4,9 @@ For example, I want to invite the people, who have registered for a particular e
 
 
 ### **Prerequisites**
-- You should have Python and pip manager installed on your computer
+- You should have Python and pip manager installed on your computer.
 - You should log-in at https://web.whatsapp.com prior to runninng this main.py file.
-- Make sure the column having phone numbers is renamed to **Whatsapp**.  Name of the .csv file should be 'Whatsapp.csv'     
+- You should have a .csv file wherein whatsapp numbers are stored. Make sure the column having phone numbers is renamed to **Whatsapp**.  Name of the .csv file should be 'Whatsapp.csv'.
     > Note: It's case sensitive.
 - Your browser should be opened in full-screen mode.
 - The numbers in the .csv file should not be in international format.
@@ -15,14 +15,14 @@ For example, I want to invite the people, who have registered for a particular e
 ### **Steps to use this project**
 - Clone this repo using the following command:
   
-  `git clone https:// `
+  `git clone https://github.com/PrathamRohra/send-o-matic.git`
 
-- In the same directory where you have cloned this repo, add a new _.csv_ file.
+- In the same directory where you have cloned this repo (where main.py is present), add the _.csv_ file containing phone numbers.
 
 - Then, in the terminal type:
   
   `pip install pywhatkit`
 
-    > Note: If, while installing the pywhatkit library, it shows a flask-related error, type the following command `pip install flask`.
+    > Note: If, while installing the pywhatkit library, it shows `ModuleNotFoundError: No module named 'flask'`, type the following command `pip install flask` and try again. 
 
-- Now, run the **main.py** file.
+- Make sure that all the prerequisites are satisfied. Now, run the **main.py** file.
