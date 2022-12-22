@@ -1,4 +1,6 @@
-# Name-Of-Project-Here
+# SEND-O-MATIC
+This project helps you send a whatsapp message to a bunch of users whose phone number is not saved on your phone. 
+For example, I want to invite the people, who have registered for a particular event, to a group and I don't want to save their number just to send a group invite link and I also don't want to send that message to hunndreds of users manually. So, I can use Send-O-Matic to do the task for me.
 
 
 ### **Prerequisites**
